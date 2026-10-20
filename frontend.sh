@@ -21,7 +21,7 @@ echo -e \\e[36m Compiling frontend code \\e[0m
 npm install
 npm run build
 
-echo -e \\e[36m Copy complie code to  nginc \\e[0m
+echo -e \\e[36m Copy complie code to  nginx \\e[0m
 rm -rf /usr/share/nginx/html/*
 cp -r out/* /usr/share/nginx/html/
 
