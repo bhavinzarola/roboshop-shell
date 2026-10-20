@@ -1,6 +1,6 @@
 dnf install -y golang git mysql8.4
 
-cp catalogue.service /etc/systemd/catalogue.service
+cp catalogue.service /etc/systemd/system/catalogue.service
 
 rm -rf /app
 
