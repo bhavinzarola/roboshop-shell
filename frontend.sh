@@ -1,3 +1,5 @@
+log_file=/tmp/fontend.log
+
 echo -e \\e[36m Installing Nginx \\e[0m
 dnf install -y nginx
 
