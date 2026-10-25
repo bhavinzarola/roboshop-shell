@@ -8,6 +8,7 @@ status_print() {
      echo -e \\e[31m FAILURE \\e[0m
     fi
 }
+
 nodejs_setup() {
 echo -e \\e[36m Configure Nodejs Repos \\e[0m
 curl -fsSL https://rpm.nodesource.com/setup_20.x | bash - &>>${log_file}
