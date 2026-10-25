@@ -20,7 +20,7 @@ status_print
 
 echo -e \\e[36m Crete App user \\e[0m
 id appuser&>>${log_file}
-if [$? -ne 0 ];then
+if [ $? -ne 0 ];then
   useradd -r -s /bin/false appuser &>>${log_file}
 fi
 status_print
